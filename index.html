@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>FindTeach</title>
+    <meta name="description" content="Encuentra los mejores profesores de la UPC">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Script -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body id="top">
+    <!-- Header -->
+    <header id="header" class="row">   
+        <div class="header-logo">
+            <a href="index.html">FindTeach</a>
+        </div>
+
+        <nav id="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll" href="#about" title="about">Quienes Somos</a></li>
+                <li><a class="smoothscroll" href="#cursos" title="cursos">Cursos</a></li>
+                <li><a class="smoothscroll" href="#testimonials" title="testimonials">Reseñas</a></li>
+                <li><a class="smoothscroll" href="#FAQ" title="faq">FAQ</a></li>
+            </ul>
+            <a href="#" title="sign-up" class="button button-primary cta btnLogin-popup">Iniciar Sesión</a>
+        </nav>
+
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>    	
+    </header>
+
+    <!-- Home -->
+    <section id="home" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000>
+        <div class="overlay"></div>
+        <div class="home-content">        
+            <div class="row contents">                     
+                <div class="home-content-left">
+                    <h3 data-aos="fade-up">Bienvenido a FindTeach</h3>
+                    <h1 data-aos="fade-up">
+                        La mejor ayuda <br>
+                        a la hora de elegir <br>
+                        profesores.
+                    </h1>
+                    <div class="search-container" data-aos="fade-up">
+                        <ion-icon name="search-outline"></ion-icon>
+                        <input id="search" type="text" placeholder="Profesor o curso">
+                        <ul class="drop"></ul>
+                    </div>
+                </div>
+
+                <div class="home-image-right">
+                    <img src="images/app-screens-470.png" 
+                        srcset="images/app-screens-470.png 1x, images/app-screens-940.png 2x"  
+                        data-aos="fade-up">
+                </div>
+            </div>
+        </div>
+
+        <ul class="home-social-list">
+            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+
+        <div class="home-scrolldown">
+            <a href="#about" class="scroll-icon smoothscroll">
+                <span>Scroll Down</span>
+                <i class="icon-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="row about-intro">
+            <div class="col-four">
+                <h1 class="intro-header" data-aos="fade-up">Quienes Somos</h1>
+            </div>
+            <div class="col-eight">
+                <p class="lead" data-aos="fade-up">
+                    En FindTeach, nuestra misión es facilitar la búsqueda de los mejores profesores de la UPC. Sabemos que elegir un buen docente es crucial para tu aprendizaje y desarrollo académico, por eso hemos creado una plataforma donde puedes encontrar información detallada sobre los profesores disponibles.
+                </p>
+            </div>                       
+        </div>
+
+        <div class="row about-features">
+            <div class="features-list block-1-3 block-m-1-2 block-mob-full group">
+                <div class="bgrid feature" data-aos="fade-up">	
+                    <span class="icon"><i class="icon-window"></i></span>            
+                    <div class="service-content">	
+                        <h3>Búsqueda Inteligente</h3>
+                        <p>Encuentra rápidamente el profesor ideal para tu curso utilizando nuestro sistema de búsqueda avanzado. Filtra por materia, horario y calificaciones.</p>
+                    </div> 	         	 
+                </div>
+
+                <div class="bgrid feature" data-aos="fade-up">	
+                    <span class="icon"><i class="icon-user"></i></span>                          
+                    <div class="service-content">	
+                        <h3>Reseñas Verificadas</h3>  
+                        <p>Todas las reseñas son realizadas por estudiantes verificados de la UPC, garantizando información confiable y relevante.</p>
+                    </div>	                          
+                </div>
+
+                <div class="bgrid feature" data-aos="fade-up">
+                    <span class="icon"><i class="icon-star"></i></span>		            
+                    <div class="service-content">
+                        <h3>Calificaciones Detalladas</h3>
+                        <p>Sistema de calificación que evalúa múltiples aspectos de la enseñanza: metodología, comunicación, nivel de exigencia y más.</p>
+                    </div>             
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="row">
+            <div class="col-twelve">
+                <h1 class="intro-header" data-aos="fade-up">Lo que dicen nuestros usuarios.</h1>
+            </div>   		
+        </div>   	
+
+        <div class="row owl-wrap">
+            <div id="testimonial-slider" data-aos="fade-up">
+                <div class="slides owl-carousel">
+                    <div>
+                        <p>
+                        "FindTeach me ayudó enormemente a elegir los mejores profesores para mis cursos. Las reseñas son muy útiles y precisas."
+                        </p> 
+                        <div class="testimonial-author">
+                            <img src="images/avatars/user-02.jpg" alt="Author image">
+                            <div class="author-info">
+                                Juan Pérez
+                                <span class="position">Estudiante de Ingeniería</span>
+                            </div>
+                        </div>                 
+                    </div> 
+
+                    <div>
+                        <p>
+                        "Excelente plataforma para conocer la experiencia de otros estudiantes con los profesores antes de matricularse."
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="images/avatars/user-03.jpg" alt="Author image">
+                            <div class="author-info">
+                                María García
+                                <span>Estudiante de Arquitectura</span>
+                            </div>
+                        </div>                                         
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="FAQ" class="FAQ">
+        <div class="row">
+            <div class="col-full">
+                <h1 class="intro-header" data-aos="fade-up">Preguntas Frecuentes</h1>
+                <div class="FAQ-content" data-aos="fade-up">
+                    <p><strong>¿Qué es FindTeach?</strong><br>
+                    FindTeach es una plataforma donde los estudiantes pueden buscar y dejar reseñas sobre los profesores de la UPC.</p>
+                    
+                    <p><strong>¿Cómo puedo dejar una reseña?</strong><br>
+                    Para dejar una reseña, simplemente ingresa al perfil del profesor que deseas reseñar y selecciona la opción de dejar reseña.</p>
+                    
+                    <p><strong>¿Las reseñas son anónimas?</strong><br>
+                    No, las reseñas están vinculadas a tu cuenta, pero tu identidad no será visible para otros usuarios.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal de Inicio de Sesión -->
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box-login">
+            <h2>Iniciar Sesión</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Recuérdame</label>
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                </div>
+                <button type="submit" class="btn">Iniciar Sesión</button>
+                <div class="login-register">
+                    <p>¿No tienes una cuenta? <a href="#" class="register-link">Registrarse</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box-register">
+            <h2>Registrarse</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Nombre de Usuario</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Acepto los términos y condiciones</label>
+                </div>
+                <button type="submit" class="btn">Registrarse</button>
+                <div class="login-register">
+                    <p>¿Ya tienes una cuenta? <a href="#" class="login-link">Iniciar Sesión</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-main">
+            <div class="row">  
+                <div class="col-three md-1-3 tab-full footer-info">            
+                    <div class="footer-logo"></div>
+                    <p>
+                    FindTeach es tu mejor aliado para encontrar los profesores ideales en la UPC. Nuestra comunidad te ayuda a tomar decisiones informadas sobre tu educación.
+                    </p>
+                    <ul class="footer-social-list">
+                        <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="col-three md-1-3 tab-1-2 mob-full footer-contact">
+                    <h4>Contacto</h4>
+                    <p>
+                    Universidad Peruana de Ciencias Aplicadas<br>
+                    Lima, Perú<br>
+                    </p>
+                    <p>
+                    contacto@findteach.com<br>
+                    </p>                    
+                </div>
+
+                <div class="col-two md-1-3 tab-1-2 mob-full footer-site-links">
+                    <h4>Enlaces</h4>
+                    <ul class="list-links">
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#about">Quienes Somos</a></li>
+                        <li><a href="#cursos">Cursos</a></li>
+                        <li><a href="#testimonials">Reseñas</a></li>
+                        <li><a href="#FAQ">FAQ</a></li>
+                    </ul>	      		
+                </div>
+
+                <div class="col-four md-1-2 tab-full footer-subscribe">
+                    <h4>Nuestro Newsletter</h4>
+                    <p>Mantente informado sobre las últimas actualizaciones y mejoras de FindTeach.</p>
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="group" novalidate="true">
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email" required> 
+                            <input type="submit" name="subscribe" value="Enviar">
+                            <label for="mc-email" class="subscribe-message"></label>
+                        </form>
+                    </div>	      		
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="row">
+                <div class="col-twelve">
+                    <div class="copyright">
+                        <span>© Copyright FindTeach 2024.</span> 
+                    </div>
+                    <div id="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"></i></a>
+                    </div>         
+                </div>
+            </div>    	
+        </div>
+    </footer>
+    <div class="loading-overlay" id="loadingOverlay">Cargando...</div>
+    <div id="preloader"> 
+    	<div id="loader"></div>
+    </div>  
+
+    <!-- Java Script
+    ================================================== -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
